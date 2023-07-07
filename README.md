@@ -1,6 +1,6 @@
 # proyecto-django
 
-Pasos Para Instalar El Proyecto De Backend
+Pasos Para Instalar El Proyecto De Backend Frontend, Ejercicio 2 y 3
 
 Pasos previos
 Tener instalado PyCharm para facilitar las tareas y creación de Django
