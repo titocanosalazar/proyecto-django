@@ -1,13 +1,23 @@
 # proyecto-django
+
 Pasos Para Instalar El Proyecto De Backend
+
 Pasos previos
 Tener instalado PyCharm para facilitar las tareas y creación de Django
 Tener instalado PostgreSQL
+
+
 Paso 1
 Abrir PyCharm, presionar en new project, dejar las opciones que ya vienen por defecto y presionar en el botón de create.
+
+
 Paso 2
 Cuanto ya tenga el entorno virtual, puede clonar el repositorio que está en GitHub.
+
+
 https://github.com/titocanosalazar/proyecto-django.git
+
+
 Paso 3
 Así debería tener sus carpetas
 .idea
@@ -23,12 +33,16 @@ venv
 
 Paso 4
 Abrir PostgreSQL y crear una base de datos que se llame sap_db
+
+
 Paso 5
 En la terminal de PyCharm colocar los siguiente comandos:
 python manage.py showmigrations
 python manage.py migrate
 python manage.py sqlmigrate personas 0001
 Que servirá para migrar la base de datos del proyecto a PostgreSQL
+
+
 Paso 6
 Para ver que todo funciona de manera correcta puede usar el siguiente comando:
 python manage.py runserver
