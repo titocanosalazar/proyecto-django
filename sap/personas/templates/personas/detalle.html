@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle Persona</title>
+    <link type="text/css" href='{% static "css/style.css" %}'  rel="stylesheet" >
+</head>
+<body>
+<h1>Detalle Persona</h1>
+<div>Id Persona: {{persona.id}}</div>
+<div>Nombre: {{persona.nombre}}</div>
+<div>Apellido: {{persona.apellido}}</div>
+<div>Salario: {{persona.salario}}</div>
+<div>Horas_Trabajadas: {{persona.horas_trabajadas}}</div>
+
+<a href="{% url 'inicio' %}">Regresar al inicio</a>
+
+</body>
+</html>
